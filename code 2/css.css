@@ -1,0 +1,84 @@
+body {
+    font-family: "Agdasima", sans-serif;
+    background-color: #1e1e2e; 
+    color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #28293d; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+#title {
+    font-size: 2.5rem;
+    color: #ff8800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#tribute-info p {
+    font-size: 1.2rem;
+    color: #e0e0e0; 
+}
+
+#img-div {
+    margin-top: 20px;
+    background-color: #222237; 
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Effet au survol */
+
+}
+
+#img-div:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+}
+#image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #a9a9d0; /* Couleur violet-bleu inspirée de l'image */
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff8800; /* Bouton orange */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#tribute-link:hover {
+    background-color: #ff5500; /* Couleur du bouton au survol */
+}
+@media (max-width: 600px) {
+    #main {
+        padding: 15px;
+    }
+
+    #title {
+        font-size: 2rem;
+    }
+
+    #tribute-link {
+        font-size: 1rem;
+    }
+}
