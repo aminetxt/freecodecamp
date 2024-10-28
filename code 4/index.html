@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Lancement de Produit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="pngegg.png" alt="Logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#caracteristiques">Caractéristiques</a></li>
+                <li><a class="nav-link" href="#fonctionnement">Fonctionnement</a></li>
+                <li><a class="nav-link" href="#tarifs">Tarifs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Votre Produit de Qualité Supérieure</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Entrez votre adresse e-mail" required>
+            <input id="submit" type="submit" value="Inscription" class="btn">
+        </form>
+    </section>
+
+    <section id="caracteristiques">
+        <div class="container">
+            <div class="feature-item">
+                <i class="fa fa-3x fa-gem"></i>
+                <h2>Haute Qualité</h2>
+                <p>Nos produits sont fabriqués avec des matériaux de premier choix pour une durabilité optimale.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa fa-3x fa-shipping-fast"></i>
+                <h2>Livraison Rapide</h2>
+                <p>Recevez votre produit dans les meilleurs délais avec des retours gratuits pour toute commande.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa fa-3x fa-award"></i>
+                <h2>100% Satisfait</h2>
+                <p>Nous garantissons un contrôle qualité strict sur chaque produit pour répondre à vos attentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fonctionnement">
+        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/video-exemple-id" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="tarifs">
+        <div class="pricing-container">
+            <div class="product" id="basique">
+                <h3>Forfait Basique</h3>
+                <h2>500€</h2>
+                <p>Notre forfait basique offre un excellent rapport qualité/prix.</p>
+                <button class="btn">Choisir</button>
+            </div>
+            <div class="product" id="premium">
+                <h3>Forfait Premium</h3>
+                <h2>800€</h2>
+                <p>Parfait pour ceux qui recherchent des fonctionnalités avancées et des matériaux exclusifs.</p>
+                <button class="btn">Choisir</button>
+            </div>
+            <div class="product" id="ultime">
+                <h3>Forfait Ultime</h3>
+                <h2>1200€</h2>
+                <p>Découvrez le meilleur que nous offrons avec toutes les fonctionnalités et un support à vie.</p>
+                <button class="btn">Choisir</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#confidentialite">Confidentialité</a></li>
+            <li><a href="#conditions">Conditions</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>© 2024 Amine Corp</p>
+    </footer>
+</body>
+</html>
