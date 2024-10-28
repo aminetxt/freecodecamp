@@ -5,8 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #1a1a1a; 
+    color: #e0e0e0; 
 }
 
 #header {
@@ -14,8 +16,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background: #333;
-    color: #fff;
+    background: #222; 
+    color: #00ffcc;
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,19 +34,19 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: #00ffcc; 
     text-decoration: none;
     font-weight: bold;
 }
 
 .nav-link:hover {
-    color: #ddd;
+    color: #80ffe5; 
 }
 
 #hero {
     padding: 8rem 2rem 2rem;
     text-align: center;
-    background: #f4f4f4;
+    background: #333; 
 }
 
 #form {
@@ -55,13 +57,16 @@ body {
     padding: 0.5rem;
     font-size: 1rem;
     margin-right: 0.5rem;
+    border: 1px solid #00ffcc; 
+    background: #444; 
+    color: #fff;  
 }
 
 #submit {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #333;
-    color: #fff;
+    background-color: #00ffcc; 
+    color: #1a1a1a; 
     border: none;
     cursor: pointer;
 }
@@ -70,7 +75,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
-    flex-wrap: wrap;
 }
 
 .feature-item {
@@ -79,9 +83,9 @@ body {
     min-width: 250px;
 }
 
-#pricing {
+#tarifs { 
     padding: 2rem;
-    background: #f4f4f4;
+    background: #444; 
 }
 
 .pricing-container {
@@ -90,8 +94,8 @@ body {
 }
 
 .product {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #555; 
+    border: 1px solid #00ffcc; 
     padding: 1rem;
     text-align: center;
     margin: 1rem;
@@ -100,8 +104,8 @@ body {
 }
 
 .btn {
-    background: #333;
-    color: #fff;
+    background: #00ffcc; 
+    color: #1a1a1a; 
     padding: 0.5rem 1rem;
     text-decoration: none;
     cursor: pointer;
@@ -111,9 +115,15 @@ body {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #333;
-    color: #fff;
+    background: #222; 
+    color: #00ffcc; 
     margin-top: 1rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; 
+    padding: 2rem; 
 }
 
 @media (max-width: 768px) {
