@@ -5,6 +5,7 @@ Feel free to explore and check out the work I've done! Don't hesitate to leave f
 - Survey Form
 - Tribute Page about the game Rocket League
 - Technical Documentation Page about bodybuilding
+- Product Landing Page
 # Usage :
 - You can learn knowledges about the game Rocket League and about your own body.
  ## **Contributing :**
