@@ -6,7 +6,7 @@ Feel free to explore and check out the work I've done! Don't hesitate to leave f
 - Tribute Page about the game Rocket League
 - Technical Documentation Page about bodybuilding
 - Product Landing Page
-- My own Portfolio (certification project)
+- My own Portfolio (final project)
 # Usage :
 - You can learn knowledges about the game Rocket League and about your own body.
  ## **Contributing :**
